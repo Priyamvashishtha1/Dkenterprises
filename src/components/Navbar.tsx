@@ -84,7 +84,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    Account
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -99,15 +99,23 @@ export const Navbar = () => {
                     </a>
                   ))}
                   <a
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://www.instagram.com/dkenterprisesaskn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",
                     })}`}
                   >
                     <InstagramLogoIcon className="mr-2 w-5 h-5" />
-                    Github
+                    Instagram
                   </a>
+                  <a
+              href="https://www.youtube.com/@mobilepapa"
+              target="_blank"
+              className={`border ${buttonVariants({ variant: "secondary" })}`}
+            >
+              <InstagramLogoIcon className="mr-2 w-5 h-5" />
+              YouTube
+            </a>
                 </nav>
               </SheetContent>
             </Sheet>
